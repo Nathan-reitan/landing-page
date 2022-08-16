@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind&display=swap');
+
+body{
+    color: azure;
+    background-color: rgb(53, 51, 60);
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 16px 0;
+    padding: 0;
+    font-family: 'Archivo Black', sans-serif
+}
+
+.headerContainer{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.25rem;
+}
+
+li>a{
+    font-family: 'Archivo Black', sans-serif;
+    color: azure;
+    text-decoration: none;
+}
+
+main{
+    padding: 10px;
+}
+
+/* class styling */
+
+.header{
+    background-image: url(./images/pier.webp);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+}
+
+.headerContainer{
+    background-color: rgba(0, 0, 0, .7);
+    padding: 0 15px;
+}
+
+.titleContainer{
+    width: 50%;
+}
+
+.navListContainer{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerNavList{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rowContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imageLeftRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.rowContent{
+    width: 500px;
+}
