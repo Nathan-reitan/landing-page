@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind&display=swap');
 
 body{
-    color: azure;
+    color: rgba(240, 255, 255, 0.9);
     background-color: rgb(53, 51, 60);
     font-family: 'Hind', sans-serif;
     margin: 0;
@@ -27,12 +27,15 @@ li{
 
 li>a{
     font-family: 'Archivo Black', sans-serif;
-    color: azure;
+    color: rgba(240, 255, 255, 0.9);
     text-decoration: none;
 }
 
 main{
+    width: 100%;
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 /* class styling */
@@ -51,12 +54,56 @@ main{
     padding: 0 15px;
 }
 
+.mainContainer{
+    width: 1500px;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.servicesRow{
+    margin: 15px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceIconContainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #D27A6C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceIcons{
+    filter:  invert(75%) sepia(82%) saturate(244%) hue-rotate(325deg) brightness(100%) contrast(100%);
+}
+
+.serviceTitle{
+    width: 100%;
+    text-align: center;
+}
+
 .titleContainer{
     width: 50%;
 }
 
 .navListContainer{
-    width: 500px;
+    width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,6 +122,13 @@ main{
 }
 
 .imageLeftRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.imageRightRow{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
