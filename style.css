@@ -73,8 +73,9 @@ main{
 }
 
 .serviceWrapper{
+    width: 274px;
+    height: 340px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -95,6 +96,10 @@ main{
 
 .serviceTitle{
     width: 100%;
+    text-align: center;
+}
+
+.serviceContent{
     text-align: center;
 }
 
