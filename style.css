@@ -84,14 +84,14 @@ main{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #D27A6C;
+    background-color: #6C5370;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .serviceIcons{
-    filter:  invert(75%) sepia(82%) saturate(244%) hue-rotate(325deg) brightness(100%) contrast(100%);
+    filter: invert(82%) sepia(3%) saturate(5696%) hue-rotate(44deg) brightness(90%) contrast(74%);
 }
 
 .serviceTitle{
@@ -142,4 +142,88 @@ main{
 
 .rowContent{
     width: 500px;
+}
+
+.leftP{
+    text-align: end;
+}
+
+.dropDownWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Drop Down fr w3 */
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: #6C5370;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: #6C5370;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+.footer{
+    border: solid 1px #3A3E4A;
+    background-color: #6C5370;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footerWrapper{
+    width: 80%;
 }
